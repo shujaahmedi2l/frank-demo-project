@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "frank-demo-project"
+  description: "nothing special"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/frank-demo-project"
+    argocd/app-name: "frank-demo-project"
+  links:
+    - url: https://frank-shuja-demo.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
